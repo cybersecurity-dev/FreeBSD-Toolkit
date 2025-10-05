@@ -21,3 +21,15 @@
 ```bsd
 pkg install openssh-portable
 ```
+
+##
+
+### Contributing
+
+[Contributions of any kind welcome, just follow the guidelines](contributing.md)!
+
+### Contributors
+
+[Thanks goes to these contributors](https://github.com/cybersecurity-dev/FreeBSD-Toolkit/graphs/contributors)!
+
+[🔼 Back to top](#freebsd-toolkit)
