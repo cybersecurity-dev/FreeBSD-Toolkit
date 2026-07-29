@@ -21,11 +21,42 @@
     <img src="https://github.com/cybersecurity-dev/cybersecurity-dev/blob/main/assets/bar.gif">
 </p>
 
-##  Install SSH server
+```bsd
+sudo pkg update
+sudo pkg upgrade
+```
+## Install SSH server
 
 ```bsd
-pkg install openssh-portable
+sudo pkg install openssh-portable
+sudo sysrc sshd_enable=YES
+sudo service sshd start
 ```
+
+## Install Tools
+
+- Development Tools
+    ```bsd
+    sudo pkg install git curl wget gcc llvm cmake python 
+    ```
+
+- Virtualization Tools
+    ```bsd
+    sudo pkg install qemu
+    ```
+
+- Browser
+    ```bsd
+    sudo pkg install firefox chromium tor-browser
+    ```
+- IDE
+    ```bsd
+    sudo pkg install geany vscode
+    ```
+- Multimedia
+    ```bsd
+    sudo pkg install vlc
+    ```
 
 ##
 
